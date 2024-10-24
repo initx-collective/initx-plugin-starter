@@ -31,10 +31,12 @@
     "lint": "eslint --cache --flag unstable_ts_config",
     "prepare": "simple-git-hooks"
   },
+  "dependencies": {
+    "@initx-plugin/core": "^0.0.12",
+    "@initx-plugin/utils": "^0.0.12"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^3.8.0",
-    "@initx-plugin/core": "^0.0.11",
-    "@initx-plugin/utils": "^0.0.11",
     "@types/node": "^22.7.9",
     "bumpp": "^9.7.1",
     "eslint": "^9.13.0",

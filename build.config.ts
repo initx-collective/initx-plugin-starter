@@ -19,9 +19,5 @@ export default defineBuildConfig({
     }
   },
   clean: true,
-  declaration: true,
-  externals: [
-    '@initx-plugin/core',
-    '@initx-plugin/utils'
-  ]
+  declaration: true
 })
