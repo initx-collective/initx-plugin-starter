@@ -6,13 +6,13 @@
   "description": "initx plugin starter template",
   "author": "imba97",
   "license": "MIT",
-  "homepage": "https://github.com/imba97/initx#readme",
+  "homepage": "https://github.com/imba97/initx-plugin-starter#readme",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/imba97/initx"
+    "url": "git+ssh://git@github.com/imba97/initx-plugin-starter"
   },
   "bugs": {
-    "url": "https://github.com/imba97/initx/issues"
+    "url": "https://github.com/imba97/initx-plugin-starter/issues"
   },
   "keywords": [
     "initx",
