@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@initx-plugin/core':
-        specifier: ^0.0.12
-        version: 0.0.12
+        specifier: ^0.0.13
+        version: 0.0.13
       '@initx-plugin/utils':
-        specifier: ^0.0.12
-        version: 0.0.12
+        specifier: ^0.0.13
+        version: 0.0.13
     devDependencies:
       '@antfu/eslint-config':
         specifier: ^3.8.0
@@ -684,14 +684,14 @@ packages:
     resolution: {integrity: sha512-JBxkERygn7Bv/GbN5Rv8Ul6LVknS+5Bp6RgDC/O8gEBU/yeH5Ui5C/OlWrTb6qct7LjjfT6Re2NxB0ln0yYybA==}
     engines: {node: '>=18.18'}
 
-  '@initx-plugin/core@0.0.12':
-    resolution: {integrity: sha512-1SF/xa6Xgsb4UzTfZUDcQTFcj5Zuiy4lMtPFsOhis+eN3XHQvjWOICuB0hTqVgbM1Nq3F9IX515igK8qcj7Adw==}
+  '@initx-plugin/core@0.0.13':
+    resolution: {integrity: sha512-FRQr5MSN+yHiVhJ6HhZbGdIh6IdDhpbbz6uxoLiirebmA1o7cAa1UfYb6hSWHUZI4syO2tHwgcn5DjZ9kUd0sw==}
 
   '@initx-plugin/utils@0.0.11':
     resolution: {integrity: sha512-0c55RQqwvnVPjHZsW1/dofLeJ6jPjlBKjmWWXlA1X+9uof8Qi/DEG6pCV/lBT7C0zass6kI+Jt4LF8gtRp03Vg==}
 
-  '@initx-plugin/utils@0.0.12':
-    resolution: {integrity: sha512-I1al+oqmTapkuJcJ0zGy9s3uMgtS/lp4cNv819csP+b73R/7JAT2huJBJjvImtTF+Kuspk4YrQMH7siT9ndv8Q==}
+  '@initx-plugin/utils@0.0.13':
+    resolution: {integrity: sha512-2VWUW5eXMjk10vDekcbJkY8axeN1isGzrvbpqW1MsEm9E9KGFYHX1bktw+dQherihBGN2MF6yfyK9eOVqgbKTA==}
 
   '@jridgewell/gen-mapping@0.3.5':
     resolution: {integrity: sha512-IzL8ZoEDIBRWEzlCcRhOaCupYyN5gdIK+Q6fbFdPDg6HqX6jpkItn7DFIpW9LQzXG6Df9sA7+OKnq0qlz/GaQg==}
@@ -3324,7 +3324,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.3.1': {}
 
-  '@initx-plugin/core@0.0.12':
+  '@initx-plugin/core@0.0.13':
     dependencies:
       '@initx-plugin/utils': 0.0.11
       importx: 0.5.0
@@ -3337,7 +3337,7 @@ snapshots:
       picocolors: 1.1.1
       which: 5.0.0
 
-  '@initx-plugin/utils@0.0.12':
+  '@initx-plugin/utils@0.0.13':
     dependencies:
       execa: 9.4.1
       picocolors: 1.1.1
