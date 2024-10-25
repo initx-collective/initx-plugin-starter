@@ -32,8 +32,8 @@
     "prepare": "simple-git-hooks"
   },
   "dependencies": {
-    "@initx-plugin/core": "^0.0.12",
-    "@initx-plugin/utils": "^0.0.12"
+    "@initx-plugin/core": "^0.0.13",
+    "@initx-plugin/utils": "^0.0.13"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.8.0",
