@@ -1,7 +1,15 @@
 import { type InitxContext, InitxPlugin } from '@initx-plugin/core'
 import { log } from '@initx-plugin/utils'
 
-export default class StarterPlugin extends InitxPlugin {
+interface Store {
+  foo: string
+}
+
+export default class StarterPlugin extends InitxPlugin<Store> {
+  defaultConfig = {
+    foo: 'bar'
+  }
+
   matchers = [
     {
       matching: 'start',
@@ -9,7 +17,7 @@ export default class StarterPlugin extends InitxPlugin {
     }
   ]
 
-  async handle(ctx: InitxContext, ...others: string[]) {
+  async handle(ctx: InitxContext<Store>, ...others: string[]) {
     log.info('initx-plugin-starter is running 🎊')
 
     log.info('ctx')
