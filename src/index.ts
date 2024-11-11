@@ -1,7 +1,7 @@
-import { type InitxCtx, InitxHandler } from '@initx-plugin/core'
+import { type InitxContext, InitxPlugin } from '@initx-plugin/core'
 import { log } from '@initx-plugin/utils'
 
-export default class StarterHandler extends InitxHandler {
+export default class StarterPlugin extends InitxPlugin {
   matchers = [
     {
       matching: 'start',
@@ -9,7 +9,7 @@ export default class StarterHandler extends InitxHandler {
     }
   ]
 
-  async handle(ctx: InitxCtx, ...others: string[]) {
+  async handle(ctx: InitxContext, ...others: string[]) {
     log.info('initx-plugin-starter is running 🎊')
 
     log.info('ctx')
