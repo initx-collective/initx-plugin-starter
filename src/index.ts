@@ -6,7 +6,7 @@ interface Store {
 }
 
 export default class StarterPlugin extends InitxPlugin<Store> {
-  defaultConfig = {
+  defaultStore = {
     foo: 'bar'
   }
 
