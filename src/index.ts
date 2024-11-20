@@ -18,6 +18,7 @@ export default class StarterPlugin extends InitxPlugin<Store> {
   ]
 
   async handle(ctx: InitxContext<Store>, ...others: string[]) {
+    /* eslint-disable no-console */
     log.info('initx-plugin-starter is running 🎊')
 
     log.info('ctx')
