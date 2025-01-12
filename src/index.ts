@@ -10,7 +10,7 @@ export default class StarterPlugin extends InitxPlugin<Store> {
     foo: 'bar'
   }
 
-  matchers = [
+  rules = [
     {
       matching: 'start',
       description: 'Plugin starter'
