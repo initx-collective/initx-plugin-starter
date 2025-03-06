@@ -1,4 +1,4 @@
-import type { InitxContext } from '@initx-plugin/core'
+import type { InitxContext, InitxMatcherRules } from '@initx-plugin/core'
 import { InitxPlugin } from '@initx-plugin/core'
 import { log } from '@initx-plugin/utils'
 
@@ -11,10 +11,21 @@ export default class StarterPlugin extends InitxPlugin<Store> {
     foo: 'bar'
   }
 
-  rules = [
+  rules: InitxMatcherRules = [
     {
       matching: 'start',
-      description: 'Plugin starter'
+      description: 'Plugin starter',
+      // You can only enter the optional value
+      optional: [
+        // npx initx start
+        undefined,
+        // npx initx start foo
+        'foo'
+      ],
+      verify(_ctx, ..._others) {
+        log.info('verify function is working')
+        return true
+      }
     }
   ]
 
