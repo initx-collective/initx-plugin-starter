@@ -1,4 +1,5 @@
-import { type InitxContext, InitxPlugin } from '@initx-plugin/core'
+import type { InitxContext } from '@initx-plugin/core'
+import { InitxPlugin } from '@initx-plugin/core'
 import { log } from '@initx-plugin/utils'
 
 interface Store {
