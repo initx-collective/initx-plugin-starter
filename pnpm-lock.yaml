@@ -12,10 +12,10 @@ importers:
         specifier: ^4.11.0
         version: 4.11.0(@typescript-eslint/utils@8.28.0(eslint@9.23.0(jiti@2.4.2))(typescript@5.8.2))(@vue/compiler-sfc@3.5.12)(eslint@9.23.0(jiti@2.4.2))(typescript@5.8.2)
       '@initx-plugin/core':
-        specifier: ^0.0.36
+        specifier: '*'
         version: 0.0.36(@types/node@22.13.14)
       '@initx-plugin/utils':
-        specifier: ^0.0.36
+        specifier: '*'
         version: 0.0.36(@types/node@22.13.14)
       '@types/node':
         specifier: ^22.13.14
@@ -6006,7 +6006,7 @@ snapshots:
   tsx@4.19.2:
     dependencies:
       esbuild: 0.23.1
-      get-tsconfig: 4.8.1
+      get-tsconfig: 4.10.0
     optionalDependencies:
       fsevents: 2.3.3
 

@@ -32,13 +32,13 @@
     "prepare": "simple-git-hooks"
   },
   "peerDependencies": {
-    "@initx-plugin/core": "^0.0.36",
-    "@initx-plugin/utils": "^0.0.36"
+    "@initx-plugin/core": "*",
+    "@initx-plugin/utils": "*"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.11.0",
-    "@initx-plugin/core": "^0.0.36",
-    "@initx-plugin/utils": "^0.0.36",
+    "@initx-plugin/core": "*",
+    "@initx-plugin/utils": "*",
     "@types/node": "^22.13.14",
     "bumpp": "^10.1.0",
     "eslint": "^9.23.0",
